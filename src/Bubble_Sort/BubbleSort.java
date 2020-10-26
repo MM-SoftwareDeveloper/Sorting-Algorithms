@@ -19,8 +19,12 @@ public class BubbleSort {
              */
             isSorted = true;
 
+            /*
+             * Added the - i to the array.length so that the sort doesn't check the last digit which
+             * should already be in the right position as it is the largest number in the array.
+             */
             for (int j = 1; j < array.length - i; j++) {
-                
+
                 if (array[j] < array[j - 1]) {
                     swap(array, j, j -1);
                     isSorted = false;
