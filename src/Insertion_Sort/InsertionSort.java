@@ -1,5 +1,9 @@
 package Insertion_Sort;
 
+/**
+ * Insertion Sort Class O(n^2)
+ */
+
 public class InsertionSort {
 
     public void sort(int[] array) {
